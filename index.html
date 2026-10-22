@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#940e26" />
+  <meta name="description" content="CFP Forecast Lab V4.7 — Indiana’s Road to the CFP. 截至 2026-10-18 的 IU 剩余赛程、真实模拟赛果条件筛选、关键比赛关联和 CFP 晋级概率。独立研究，非官方预测。" />
+  <meta property="og:title" content="CFP Forecast Lab | Indiana’s Road to the CFP" />
+  <meta property="og:description" content="在 20,000 条真实 V4.5 模型轨迹中探索 IU 剩余赛程与关键比赛。2026-10-18 冻结研究；非实时预测。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cfp-forecast-lab.vercel.app/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="CFP Forecast Lab V4.7 | Indiana’s Road to the CFP" />
+  <meta name="twitter:description" content="IU 剩余五场、比赛结果条件查询与 CFP 晋级概率。冻结 2026-10-18，V4.5 模型。" />
+  <link rel="icon" type="image/svg+xml" href="./assets/mark.svg" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <title>CFP Forecast Lab V4.7 — Indiana’s Road to the CFP</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div class="top-stripe" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#/overview" aria-label="CFP Forecast Lab 首页">
+        <span class="brand-mark" aria-hidden="true">C<span>F</span></span>
+        <span class="brand-copy"><strong>CFP Forecast Lab</strong><small>INDEPENDENT DATA JOURNAL</small></span>
+      </a>
+      <div class="header-side"><span class="snapshot-dot" aria-hidden="true"></span><span>2026 SEASON · FROZEN</span><span class="header-divider">/</span><span>V4.7 WEB · MODEL V4.5</span></div>
+    </div>
+    <nav class="nav" aria-label="网站主要导航">
+      <div class="wrap nav-items" id="nav">
+        <a href="#/overview" data-route="overview">概览 <span>Overview</span></a>
+        <a href="#/scenarios" data-route="scenarios">情景 <span>Explorer</span></a>
+        <a href="#/teams" data-route="teams">球队 <span>Comparison</span></a>
+        <a href="#/paths" data-route="paths">晋级 <span>IU Paths</span></a>
+        <a href="#/model" data-route="model">方法 <span>Evidence</span></a>
+        <a href="#/records" data-route="records">预测记录与表现 <span>Track Record</span></a>
+        <a href="#/sources" data-route="sources">来源 <span>Downloads</span></a>
+      </div>
+    </nav>
+  </header>
+  <main id="main" class="wrap main-wrap" tabindex="-1">
+    <noscript><section class="plain-panel"><h1>需要 JavaScript 才能使用交互探索</h1><p>本网站不需要登录或服务器处理。可在 <a href="./downloads/scenario-summary.csv">汇总 CSV</a> 查看冻结结果。</p></section></noscript>
+    <div id="app" aria-live="off"><div class="loading">正在加载已核验的研究快照…</div></div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-layout"><div><b>CFP FORECAST LAB</b><span>Independent research · Not affiliated with IU, NCAA, Big Ten or CFP.</span></div><div><span>固定研究时点：2026-10-18 18:00 EDT</span><span>网站 V4.7 · 模型 V4.5 · 状态 V4_PROVISIONAL_FULL_FBS</span></div></div></footer>
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>
