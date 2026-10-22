@@ -1,0 +1,26 @@
+[
+  {
+    "away_team": "Boise State",
+    "game_id": "PAC12_2026_PROJECTED_Boise_State_Utah_State",
+    "home_team": "Utah State",
+    "reason": "MODEL_INTERNAL_PROJECTED_FIXTURE_NOT_VERIFIED"
+  },
+  {
+    "away_team": "Oregon State",
+    "game_id": "PAC12_2026_PROJECTED_Oregon_State_Washington_State",
+    "home_team": "Washington State",
+    "reason": "MODEL_INTERNAL_PROJECTED_FIXTURE_NOT_VERIFIED"
+  },
+  {
+    "away_team": "San Diego State",
+    "game_id": "PAC12_2026_PROJECTED_San_Diego_State_Fresno_State",
+    "home_team": "Fresno State",
+    "reason": "MODEL_INTERNAL_PROJECTED_FIXTURE_NOT_VERIFIED"
+  },
+  {
+    "away_team": "Texas State",
+    "game_id": "PAC12_2026_PROJECTED_Texas_State_Colorado_State",
+    "home_team": "Colorado State",
+    "reason": "MODEL_INTERNAL_PROJECTED_FIXTURE_NOT_VERIFIED"
+  }
+]

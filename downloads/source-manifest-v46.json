@@ -1,0 +1,45 @@
+{
+  "snapshot_id": "V46_WEB_A_V45_FROZEN_2c28c7b54dc9",
+  "website_version": "V4.6",
+  "model_version": "V4.5",
+  "model_release_grade": "V4_PROVISIONAL_FULL_FBS",
+  "forecast_as_of": "2026-10-18T18:00:00-04:00",
+  "generated_at": "2026-10-19T19:30:11.835964+00:00",
+  "simulation_count": 20000,
+  "model_scenario": "A_LEGACY_KEYED",
+  "input_hashes": {
+    "a_receipt_sha256": "441225d54b5391da1ab3e09b3f6dcd79486fd9d035b4a4966271d017aa1ab6e9",
+    "games_2026_v42_sha256": "81577428722758201037b84a2b1b7e6e58a6fd109351ea7c4831da8a6fc0e8a7",
+    "trajectory_sha256": "51840c969f7e41775e12e7403d3d3217ffc22a2e4e435967aa3fe4afc394139e"
+  },
+  "public_files_sha256": {
+    "index.html": "954a3303b18bfb8bf1e8f7d2a443561688504aab4f5818ed7fdbb792eaff5488",
+    "assets/app.js": "f55373ec46ecfd779b6ac07f0299ad4ced2a9b1f482e44deef9900995fb92ec2",
+    "assets/styles.css": "7b55e4808e921894f73c67400ba1a9ed19eefebafdb49204a1a72a693bbbc4d8",
+    "assets/format.js": "396fdf0f262e3eb7d180fbb4085e428d065fba0ef035532c538701f504fb385e",
+    "assets/conditions-ui.mjs": "14670b63515dd0f229a97cf61a842e27f5ebcf94c4ec86d703e888874ea4ab14",
+    "assets/conditions-logic.mjs": "1da2574454e3b4c072c4a49b0eb1f0e0e2312bed766ab34db197c28f297a8eaa",
+    "data/v45-release.json": "d6373b8c9d64b387e2c49dfd250ad815248006d2c017fe5814545ce4a4507137",
+    "data/v46-conditions-a.json": "48d40b0ebb9cfadd6bff0f8639b03c5eebbe8f3d00a1aaf74fa1d1dc3a3fcaf0",
+    "data/v46-conditions-a.bin": "edf71be1e6281c2406ebfa36bdfe0736ec2ddaec570ae2b0de8ea0f8caeb7d77",
+    "downloads/scenario-summary.csv": "5cf08769a40d1a4dd3b0cf041bbcfcb026d67e2077f8d090e65e2e160c7a009e",
+    "downloads/iu-frozen-schedule-v46.csv": "aea6c32f5da95db1b6866356f8c21228a0903b4bd1005e4dbe44eaf8412aa661",
+    "downloads/key-games-iu-association-v46.csv": "9a57b5b07781064f915fb14c28d05afdb52049f03c689cf22372edad38acbdb3"
+  },
+  "changes": {
+    "model_changed": false,
+    "new_game_results_included": false,
+    "website_features": [
+      "IU frozen remaining schedule",
+      "A-group multi-match conditional queries",
+      "IU CFP key-game associations",
+      "shareable URL filters"
+    ]
+  },
+  "limitations": [
+    "Source fixture provenance is reconstructed, not independently PIT archived",
+    "CFP committee model remains uncalibrated",
+    "No causal intervention or model retraining",
+    "Only A scenario has condition index"
+  ]
+}

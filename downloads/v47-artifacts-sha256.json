@@ -1,0 +1,37 @@
+[
+  {
+    "bytes": 575647,
+    "path": "downloads/v47-season-predictions.csv",
+    "sha256": "d1080b1691f4e8fb7b615e7cca362d5bc9a951a97e420c0422c2081915e43e2b"
+  },
+  {
+    "bytes": 315076,
+    "path": "downloads/v47-game-predictions.csv",
+    "sha256": "2c1bd752e6987e627c899e5a99007f77138b251f9677057cfd9fc0fddb85e301"
+  },
+  {
+    "bytes": 3196,
+    "path": "downloads/v47-field-dictionary.json",
+    "sha256": "26ab0a3d733b46d193b565714c840b60b152a0765073cfdb282e83f840eb905a"
+  },
+  {
+    "bytes": 1620,
+    "path": "downloads/v47-evidence.json",
+    "sha256": "9ccdf2ac20bafd9edde9de822f50b5872d9667955173e3f5e91fcf267768bb54"
+  },
+  {
+    "bytes": 6125,
+    "path": "data/v47-status.json",
+    "sha256": "268fa769b94b142d5427373cf000967108f812278fad80f0678646423004f797"
+  },
+  {
+    "bytes": 114,
+    "path": "data/v47-results-history.json",
+    "sha256": "b849fc7c6f61e0add4df753eb0a732311294bdbe718be15be4a985ad465d01c0"
+  },
+  {
+    "bytes": 821,
+    "path": "downloads/v47-excluded-model-fixtures.json",
+    "sha256": "c318d26e169adf68c2de7d4d1fb7f65ff0d06c8f1cb541fe0cafdf308ecfd50f"
+  }
+]

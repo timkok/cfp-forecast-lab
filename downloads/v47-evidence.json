@@ -1,0 +1,34 @@
+{
+  "as_of_at": "2026-10-18T18:00:00-04:00",
+  "claimed_v45_release_build_at": "2026-10-19T17:53:47+00:00",
+  "claimed_v45_release_publish_at": "2026-10-19T18:50:02.972Z",
+  "claimed_v46_index_generated_at": "2026-10-19T19:30:11.835964+00:00",
+  "deployments": [
+    {
+      "artifact": "data/v45-release.json",
+      "claim": "file existed by READY",
+      "deployment_id": "dpl_CB7boDgHu3wgVRyUbSUm8qwpwmGj",
+      "deployment_ready_at": "2026-10-19T19:02:01.700Z",
+      "sha256": "d6373b8c9d64b387e2c49dfd250ad815248006d2c017fe5814545ce4a4507137",
+      "vercel_sha1": "0e019b3a35f87773c764337321c3509fc6a5adbe",
+      "verified_local_sha1": "0e019b3a35f87773c764337321c3509fc6a5adbe"
+    },
+    {
+      "artifact": "data/v46-conditions-a.json",
+      "claim": "file existed by READY",
+      "deployment_id": "dpl_8bb2QybxS6249qYKjXJTMmEjX7Gi",
+      "deployment_ready_at": "2026-10-19T20:13:35.003Z",
+      "sha256": "48d40b0ebb9cfadd6bff0f8639b03c5eebbe8f3d00a1aaf74fa1d1dc3a3fcaf0",
+      "vercel_sha1": "ef436e4693f1644876c0fcc6356c5e0873738825",
+      "verified_local_sha1": "ef436e4693f1644876c0fcc6356c5e0873738825"
+    }
+  ],
+  "generated_at": null,
+  "model_version": "V4.5",
+  "proof_warning": "Claims inside JSON and file hashes alone do not prove historical generation/publication. Vercel READY plus exact deployed file hash proves existence no later than that timestamp, not public view time.",
+  "published_at": null,
+  "registered_at": "2026-10-19T20:47:36.857Z",
+  "registration_does_not_create_new_forecast": true,
+  "snapshot_id": "V46_WEB_A_V45_FROZEN_2c28c7b54dc9",
+  "website_version": "V4.7"
+}
