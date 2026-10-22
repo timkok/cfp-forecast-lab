@@ -1,0 +1,29 @@
+{
+  "baseline_brier": null,
+  "baseline_log_loss": null,
+  "brier": null,
+  "held_final_results": [],
+  "horizons_secondary": {
+    "at_least_168_hours": {
+      "brier": null,
+      "log_loss": null,
+      "n": 0
+    },
+    "at_least_24_hours": {
+      "brier": null,
+      "log_loss": null,
+      "n": 0
+    }
+  },
+  "log_loss": null,
+  "model_version": "V4.5",
+  "primary_scenario": "A_LEGACY_KEYED",
+  "scorable_completed_games": 0,
+  "score_policy": "last independently retained eligible A prediction before verified kickoff",
+  "score_status": "NO_RESULTS",
+  "scored_games": [],
+  "snapshot_id": "V46_WEB_A_V45_FROZEN_2c28c7b54dc9",
+  "verified_final_results": 0,
+  "website_version": "V4.7",
+  "win_accuracy": null
+}
